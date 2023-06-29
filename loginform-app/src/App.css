@@ -1,0 +1,65 @@
+html, .App {
+  text-align: center;
+}
+
+body {
+  height: 100%;
+  background-color:#ffffff;
+}
+
+.nav-link:hover{
+  color:yellow !important;
+}
+
+/* STYLE SCROLLBARS */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #fef4cf #212529;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fef4cf;
+  border-radius: 6px;
+  border: 3px solid #212529;
+}
+
+.footer-logo{
+  height:45px;
+  margin-left:20px;
+}
+ /* Form Formatting */
+input.text-input {
+  width:100%;
+  height:40px;
+  border-radius:5px;
+}
+label {
+  display:block;
+  float: left;
+  font-size: 24px;
+  padding-left:10px;
+}
+input[type=checkbox]{
+  vertical-align: middle;
+  height:25px;
+  width: 25px;
+  margin-top:8px;
+}
+
+.login h3 {
+    text-transform: uppercase;
+    border:3px solid red;
+    border-radius: 5px;;
+    background-color: white;
+    color:black;
+  }
